@@ -1,7 +1,7 @@
 {
   "name": "app-flag-inspector",
-  "version": "1.0.0",
-  "description": "CLI utility to decompile and inspect Android APK / iOS IPA security flags (FLAG_SECURE, screenshot blocking, etc.)",
+  "version": "1.1.0",
+  "description": "CLI to decompile Android APK & iOS IPA files and detect security flags like FLAG_SECURE, DRM, root detection, SSL pinning — with autofix patching support",
   "main": "src/index.js",
   "bin": {
     "app-flag-inspector": "./bin/cli.js"
@@ -12,23 +12,52 @@
   "keywords": [
     "apk",
     "ipa",
-    "decompile",
-    "flag-secure",
     "android",
     "ios",
-    "security-flags",
+    "decompile",
     "apktool",
-    "debugging",
-    "mobile",
-    "screenshot-block"
+    "flag-secure",
+    "FLAG_SECURE",
+    "security-flags",
+    "screenshot-block",
+    "screenshot-prevention",
+    "screen-recording",
+    "black-screen",
+    "mobile-testing",
+    "mobile-debugging",
+    "app-live",
+    "browserstack",
+    "smali",
+    "reverse-engineering",
+    "drm",
+    "root-detection",
+    "ssl-pinning",
+    "certificate-pinning",
+    "surface-view-secure",
+    "autofix",
+    "patch-apk",
+    "recompile-apk",
+    "mobile-security",
+    "app-security-audit",
+    "qa-tools",
+    "ci-cd",
+    "npx"
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
   "dependencies": {
     "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
     "commander": "^12.1.0",
-    "ora": "^5.4.1",
-    "cli-table3": "^0.6.5"
+    "ora": "^5.4.1"
   },
   "engines": {
     "node": ">=16.0.0"
